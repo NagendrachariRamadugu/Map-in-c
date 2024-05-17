@@ -129,6 +129,8 @@ int main() {
     struct map* array = createMap(a, n);
     
     printf("%d", findFreq(3, array));
+
+    free(array);
     
     return 0;
 }
